@@ -1,0 +1,25 @@
+# ESP-IDF build output
+build/
+
+# Generated sdkconfig file. It's better to track sdkconfig.defaults.
+/sdkconfig
+/sdkconfig.old
+
+# IDE project files
+.vscode/
+.idea/
+*.project
+*.cproject
+*.sln
+
+# Log files
+*.log
+
+# Python virtual environment
+.venv/
+virtualenv/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
